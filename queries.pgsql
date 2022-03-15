@@ -4,7 +4,7 @@ SELECT DISTINCT country_of_birth FROM person ORDER BY country_of_birth; --Withou
 SELECT * FROM person WHERE gender = 'Male' AND (country_of_birth = 'Russia' OR country_of_birth = 'China');
 
 
-SELECT 1<>2;
+SELECT 1<>2; 
 
 --LIMIT / OFFSET
 SELECT * FROM person LIMIT 10;
